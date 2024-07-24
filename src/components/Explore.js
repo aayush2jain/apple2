@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
-import ScrollTrigger from 'gsap/src/ScrollTrigger'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 import exploreVideo from '../assets/videos/explore.mp4'
 import { explore1Img, explore2Img } from '../utils'
 
