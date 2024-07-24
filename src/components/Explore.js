@@ -25,18 +25,19 @@ useGSAP(()=>{
       opacity:1,
       paddingRight:0,
       paddingLeft:0,
-      // duration:3,
+      duration:3,
       scrollTrigger:{
         trigger:'#img1',
         start:'top 90%',
         end:"top 10%",
+        markers:"true",
         scrub:2
       }
     })
     gsap.to('#exploreh1,#exploreh2',{
       opacity:1,
       y:-20,
-      // duration:2,
+duration:2,      
       delay:1,
       scrollTrigger:{
         trigger:'#exploreh1',
@@ -53,7 +54,7 @@ useGSAP(()=>{
     scrub:2
     },// start animation when ".box" enters the viewport
     opacity: 1,
-    // duration:2,
+    duration:2,
     delay:2,
     y:-20
     
