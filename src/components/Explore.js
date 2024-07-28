@@ -14,7 +14,7 @@ useGSAP(()=>{
   const video = document.getElementById('exploreVideo');
     gsap.to(video, {
       scrollTrigger: {
-        trigger: '#exploreVideo',
+        trigger: video,
         toggleActions: 'play pause reverse restart',
         onEnter: () => video.play(),
         onEnterBack: () => video.play(),
